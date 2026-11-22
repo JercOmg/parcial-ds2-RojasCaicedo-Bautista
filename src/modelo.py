@@ -10,7 +10,7 @@ class CampanaPruebas:
         self.defectos = defectos
         self.semanas = []
         self.acumulados = []
-        # voy sumando semana a semana
+        # vamos sumando semana a semana
         total = 0
         semana = 1
         for d in defectos:
@@ -43,12 +43,18 @@ class CampanaPruebas:
         encontrados = self.goel(t, self.a, self.b)
         return self.a - encontrados
 
+    def semana_95(self):
+        # semana en la que se habra encontrado el 95% de los defectos
+        # despejamos a(1 - e^(-bt)) = 0.95a  ->  t = ln(20) / b
+        return np.log(20) / self.b
+
     def graficar(self):
-        # curva suave con muchos puntos entre la semana 0 y la 20
+        # la curva con puntoss entre la semana 0 y la 20
         t = np.linspace(0, 20, 100)
         curva = self.goel(t, self.a, self.b)
         plt.plot(self.semanas, self.acumulados, "o", label="Defectos acumulados reales")
         plt.plot(t, curva, label="Curva ajustada Goel-Okumoto")
+        plt.axvline(self.semana_95(), linestyle="--", color="gray", label="95% de defectos")
         plt.title("Defectos acumulados de la version 11.0")
         plt.xlabel("Semana")
         plt.ylabel("Defectos acumulados")

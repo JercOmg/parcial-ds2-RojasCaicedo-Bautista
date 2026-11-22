@@ -19,5 +19,6 @@ print("a:", round(a, 1))
 print("b:", round(b, 4))
 
 print("restantes:", round(campana.restantes(), 1))
+print("semana 95%:", round(campana.semana_95(), 1))
 
 campana.graficar()
