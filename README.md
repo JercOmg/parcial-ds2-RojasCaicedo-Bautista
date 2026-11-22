@@ -18,3 +18,8 @@ Ticket
 defectos
     -semana: numerico
     -defectos_encontrados: numerico 
+
+
+
+# Ejercicio
+    escogimos el ejercicio b

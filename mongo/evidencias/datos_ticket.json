@@ -1,1 +1,74 @@
-[{"_id":{"$oid":"6b01ec157839869957fa8829"},"id":"T1","llegada":0,"atención":5,"prioridad":"alta"},{"_id":{"$oid":"6b01ec157839869957fa882a"},"id":"T2","llegada":3,"atención":7,"prioridad":"alta"},{"_id":{"$oid":"6b01ec157839869957fa882b"},"id":"T3","llegada":6,"atención":4,"prioridad":"media"},{"_id":{"$oid":"6b01ec157839869957fa882c"},"id":"T4","llegada":14,"atención":8,"prioridad":"baja"},{"_id":{"$oid":"6b01ec157839869957fa882d"},"id":"T5","llegada":25,"atención":6,"prioridad":"alta"},{"_id":{"$oid":"6b01ec157839869957fa882e"},"id":"T6","llegada":28,"atención":5,"prioridad":"media"},{"_id":{"$oid":"6b01ec157839869957fa882f"},"id":"T7","llegada":40,"atención":9,"prioridad":"media"}]
+[
+  {
+    "_id": {
+      "$oid": "6b01ec157839869957fa8829"
+    },
+    "id": "T1",
+    "llegada": 0,
+    "atencion": 5,
+    "prioridad": "alta"
+  },
+  {
+    "_id": {
+      "$oid": "6b01ec157839869957fa882a"
+    },
+    "id": "T2",
+    "llegada": 3,
+    "atencion": 7,
+    "prioridad": "alta"
+  },
+  {
+    "_id": {
+      "$oid": "6b01ec157839869957fa882b"
+    },
+    "id": "T3",
+    "llegada": 6,
+    "atencion": 4,
+    "prioridad": "media"
+  },
+  {
+    "_id": {
+      "$oid": "6b01ec157839869957fa882c"
+    },
+    "id": "T4",
+    "llegada": 14,
+    "atencion": 8,
+    "prioridad": "baja"
+  },
+  {
+    "_id": {
+      "$oid": "6b01ec157839869957fa882d"
+    },
+    "id": "T5",
+    "llegada": 25,
+    "atencion": 6,
+    "prioridad": "alta"
+  },
+  {
+    "_id": {
+      "$oid": "6b01ec157839869957fa882e"
+    },
+    "id": "T6",
+    "llegada": 28,
+    "atencion": 5,
+    "prioridad": "media"
+  },
+  {
+    "_id": {
+      "$oid": "6b01ec157839869957fa882f"
+    },
+    "id": "T7",
+    "llegada": 40,
+    "atencion": 9,
+    "prioridad": "media"
+  },
+  {
+    "_id": {
+      "$oid": "6b01ec157839869957fa8830"
+    },
+    "id": "T8",
+    "llegada": 52,
+    "atencion": 4,
+    "prioridad": "alta"
+  }
+]
